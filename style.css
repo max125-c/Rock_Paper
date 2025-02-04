@@ -63,7 +63,7 @@ h1{
 
 }
 #popUp {
-    height: 200px;
+    height: 500px;
     background-color: white;
     color: black;
     display: none; /* Initially hidden */
