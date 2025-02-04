@@ -3,12 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rock Paper scissorr</title>
-    <script src="script.js"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Rock Paper scissor</h1>
-    <button onclick="rockPaper()">Start The Game</button>
-    
+  
+        <h1 class="heading" >Wel-Come TO Rock Paper Scissors Game Fest!!!</h1>
+        <h1 class = "user-choice-container" id="user-choice" >Your choice :Rock </h1>
+        <h1 class = "computers-choice-container" id="computer-choice"> </h1>
+        <h1 class="Result-container" id="result">Result: Draw  </h1>
+    <div class="user-options">
+        <button onclick="selectRock()">
+            <!-- imoji we can apply direcctly  -->
+            <img src="./images/rock.png" alt="">
+        </button>
+        <button onclick="selectPaper()">
+            <img src="./images/paper.png" alt="">
+        </button>
+        <button onclick="selectScissors()">
+            <img src="./images/scissors.png" alt="">
+        </button>
+    </div>
+    <div id="popUp">
+        <h1>Wow You Won The Game🐓🐓🐓🍗🍗🍗</h1>
+    </div>
+    <script src="Script.js"></script>
 </body>
 </html>
