@@ -53,7 +53,7 @@ function CheckWhoWon(user1, computersChoice) {
         (user1 === "scissor" && computersChoice === "rock")) {
         resultContainer.innerHTML = "You FAILL !!!!!!💀💀☠️☠️";
         // Body.style.backgroundColor = "red";
-        PopUp.innerHTML = "It's a Draw! Try Again 🤝";
+        PopUp.innerHTML = "You FAILL !!!!!!💀💀☠️☠️! Try Again 🤝";
         PopUp.style.display = "flex";  // Show pop-up
     }
     // Draw
@@ -70,4 +70,5 @@ function CheckWhoWon(user1, computersChoice) {
     setTimeout(() => {
         popUp.style.display = "none";
     }, 1000);
+
 }
