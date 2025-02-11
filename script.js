@@ -68,7 +68,7 @@ function CheckWhoWon(user1, computersChoice) {
     resultContainer.classList.add("popup");
 
     setTimeout(() => {
-        popUp.style.display = "none";
+        PopUp.style.display = "none";
     }, 1000);
 
 }
